@@ -1,9 +1,10 @@
 name: Continuous Integration/ Continuous Deployment
+
 on:
-  pull_request_target:
-    types:
-      - closed
-    branches: [dev]
+  push:
+    branches: ['main']
+  pull_request:
+    branches: ['main']
 
 jobs:
   if_merged:
