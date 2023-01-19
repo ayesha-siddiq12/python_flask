@@ -22,4 +22,4 @@ jobs:
         
         shell: bash
       - name: copy
-        run: cp -r config.ini /transformer_generator/transformers/ 
+        run: cp -r config.ini transformer_generator/transformers/ 
